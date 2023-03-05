@@ -49,10 +49,10 @@ def main():
     filename = input()
     if "a" not in filename:
         with open("test/" + filename,'r') as f:
-        n3 = int(f.readline())
-        parentsList3 = list(map(int, f.readline().split()))
-        heightF = compute_height(n3, parentsList3)
-        print(heightF)
+            n3 = int(f.readline())
+            parentsList3 = list(map(int, f.readline().split()))
+            heightF = compute_height(n3, parentsList3)
+            print(heightF)
   else:
     exit()
 
