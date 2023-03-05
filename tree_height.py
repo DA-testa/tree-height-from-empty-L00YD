@@ -54,6 +54,7 @@ def main():
             heightF = compute_height(n3, parentsList3)
             print(heightF)
   else:
+    print("error")
     exit()
 
 # In Python, the default limit on recursion depth is rather low,
